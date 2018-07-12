@@ -75,10 +75,10 @@ nav-breaking-point: 520px
 paginate: 3
 
 # Display links for the previous and next post on post pages.
-display-next-prev-post: false
+display-next-prev-post: true
 
 # Leave empty if you don't want comments on post pages.
-disqus-shortname:
+disqus-shortname: FlyCorleone
 
 
 ################
@@ -121,9 +121,9 @@ var_next_post: 下一篇
 var_previous_post: 上一篇
 #var_less_than_a_minute_read: Less than a minute read
 #var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: 发布 by
-var_guest_post_by: Guest post by
-var_your_email: Your email
+var_post_by: 作者
+var_guest_post_by: 嘉宾作者
+var_your_email: Your chengyifly@gmail.com
 var_your_message: Your message
 
 

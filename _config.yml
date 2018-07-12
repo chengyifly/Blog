@@ -65,7 +65,7 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+date_format: "%Y年%m月%d日"
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
@@ -78,7 +78,7 @@ paginate: 3
 display-next-prev-post: true
 
 # Leave empty if you don't want comments on post pages.
-disqus-shortname: FlyCorleone
+disqus-shortname: fly-corleones-blog
 
 
 ################
@@ -114,13 +114,13 @@ paypal:
 # Useful for translating into other languages.
 
 var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
+var_read: Read More # Text after each post summary on the homepage.
 var_newer: 上一页
 var_older: 下一页
 var_next_post: 下一篇
 var_previous_post: 上一篇
-#var_less_than_a_minute_read: Less than a minute read
-#var_min_read: min read # Text after reading time. Example: 5 min read.
+var_less_than_a_minute_read: Less than a minute read
+var_min_read: min read # Text after reading time. Example: 5 min read.
 var_post_by: 作者
 var_guest_post_by: 嘉宾作者
 var_your_email: Your chengyifly@gmail.com

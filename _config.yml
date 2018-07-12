@@ -1,20 +1,20 @@
 
 # The name of your website.
-name: Holo Alfa
+name: Fly Corleone's Blog
 
 description:
 
   # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  meta: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^ ~
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^ ~
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Fly Corleone # Change this!
 
   # Necessary for contact page
-  email: contact@stijn.vc # Change this!
+  email: chengyifly@gmail.com # Change this!
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
@@ -24,7 +24,7 @@ url: http://cheng.cool
 baseurl: ""
 
 # language attribute in <html> element.
-lang: en
+lang: cn
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -115,13 +115,13 @@ paypal:
 
 var_on_the_web: On the web
 var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
+var_newer: 上一页
 var_older: 下一页
-var_next_post: Next post
-var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: Post by
+var_next_post: 下一篇
+var_previous_post: 上一篇
+#var_less_than_a_minute_read: Less than a minute read
+#var_min_read: min read # Text after reading time. Example: 5 min read.
+var_post_by: 发布 by
 var_guest_post_by: Guest post by
 var_your_email: Your email
 var_your_message: Your message

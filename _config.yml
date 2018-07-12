@@ -20,8 +20,8 @@ author:
   # want it.
   info:
 
-url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+url: http://cheng.cool
+baseurl: ""
 
 # language attribute in <html> element.
 lang: en
@@ -118,7 +118,7 @@ paypal:
 var_on_the_web: On the web
 var_read: Read # Text after each post summary on the homepage.
 var_newer: Newer
-var_older: Older
+var_older: 下一页
 var_next_post: Next post
 var_previous_post: Previous post
 var_less_than_a_minute_read: Less than a minute read

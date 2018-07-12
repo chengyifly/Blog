@@ -15,10 +15,10 @@ layout: default
 		{{ content }}
   {% if site.display-author-post-page %}
     {% if page.author.name %}
-      <small><em>{{ site.var_guest_post_by }}: {{ page.author.name }} {{ page.author.info }}</em></small>
+      <small><em>{{ site.var_guest_post_by }}： {{ page.author.name }} {{ page.author.info }}</em></small>
     {% else %}
       {% if site.author.name %}
-        <small><em>{{ site.var_post_by }}: {{ site.author.name }} {{ site.author.info }}</em></small>
+        <small><em>{{ site.var_post_by }}： {{ site.author.name }} {{ site.author.info }}</em></small>
       {% endif %}
     {% endif %}
   {% endif %}
@@ -28,14 +28,14 @@ layout: default
 <div class="pagination clearfix">
   <div class="left">
     {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}">‹ {{ site.var_next_post }}</a>
+      <a href="{{ page.next.url | prepend: site.baseurl }}">‹ {{ site.var_previous_post }}</a>
     {% else %}
       <span class="disabled">‹ {{ site.var_next_post }}</span>
     {% endif %}
   </div>
   <div class="right">
     {% if page.previous.url %}
-      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.var_previous_post }} ›</a>
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.var_next_post }} ›</a>
     {% else %}
       <span class="disabled">{{ site.var_previous_post }} ›</span>
     {% endif %}

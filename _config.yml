@@ -35,9 +35,9 @@ lang: cn
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: true
+display-social-icons: false
 
-footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> Jekyll theme crafted by <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
+footer-text: 感谢光临我的Blog.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
@@ -123,8 +123,8 @@ var_less_than_a_minute_read: Less than a minute read
 var_min_read: min read # Text after reading time. Example: 5 min read.
 var_post_by: 作者
 var_guest_post_by: 嘉宾作者
-var_your_email: Your chengyifly@gmail.com
-var_your_message: Your message
+var_your_email: 你的E-mail
+var_your_message: 这里填写你的留言
 
 
 ##################

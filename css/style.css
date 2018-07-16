@@ -324,6 +324,7 @@ input[type="submit"] {
 }
 .pagination .right {
   float: right;
+  text-align: right;
 }
 #disqus_thread {
   margin-bottom: 50px;

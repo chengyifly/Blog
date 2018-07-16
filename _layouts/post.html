@@ -40,7 +40,7 @@ layout: default
   </div>
   <div class="right">
     {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}" style="position: absolute; float:right; right:0px">{{ site.var_next_post }} ＞</a><br>
+      <a href="{{ page.next.url | prepend: site.baseurl }}" style="float:right; right:0px">{{ site.var_next_post }} ＞</a><br>
 	    <small><em>{{page.next.title}}</em></small>
       
     {% else %}

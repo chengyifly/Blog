@@ -31,7 +31,7 @@ layout: default
 <div class="pagination clearfix">
   <div class="left">
     {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}">＜ {{ site.var_previous_post }}&nbsp{{page.previous.title}}</a>
+      <a href="{{ page.next.url | prepend: site.baseurl }}">＜ {{ site.var_previous_post }}&nbsp;{{page.previous.title}}</a>
     {% else %}
       <span class="disabled">＜ {{ site.var_previous_post }}</span>
     {% endif %}

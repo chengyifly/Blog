@@ -37,7 +37,7 @@ lang: cn
 show-subtitle: true
 display-social-icons: false
 
-footer-text: 感谢光临我的Blog.<br><br>Copyright 2018 Fly Corleone. Powered by Jekyll&GitHub.
+footer-text: 感谢光临我的Blog.<span id="busuanzi_container_site_uv"> 您是本站第<span id="busuanzi_value_site_uv"></span>位小伙伴</span><br><br>Copyright 2018 Fly Corleone. Powered by Jekyll&GitHub.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png

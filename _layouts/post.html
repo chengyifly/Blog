@@ -30,18 +30,18 @@ layout: default
 {% if site.display-next-prev-post and page.previous.url or site.display-next-prev-post and page.next.url %}
 <div class="pagination clearfix">
   <div class="left">
-    {% if page.next.url %}
-      <a href="{{ page.next.url | prepend: site.baseurl }}">＜ {{ site.var_previous_post }}<br>
-	    <small><em>{{page.previous.title}}</em></small>
+    {% if page.previous.url %}
+      <a href="{{ page.previous.url | prepend: site.baseurl }}">＜ {{ site.var_previous_post }}
+            <br><small><em>{{page.previous.title}}</em></small>
       </a>
     {% else %}
       <span class="disabled">＜ {{ site.var_previous_post }}</span>
     {% endif %}
   </div>
   <div class="right">
-    {% if page.previous.url %}
-      <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.var_next_post }} ＞
-            <br><small><em>{{page.next.title}}</em></small>
+    {% if page.next.url %}
+      <a href="{{ page.next.url | prepend: site.baseurl }}">{{ site.var_next_post }} ＞<br>
+	    <small><em>{{page.next.title}}</em></small>
       </a>
     {% else %}
       <span class="disabled">{{ site.var_next_post }} ＞</span>

@@ -10,9 +10,11 @@ layout: default
 {% endif %}
 
 <article>
-  <span class="meta">{{ page.date | date: site.date_format }} • {{ read-time }}</span>
-	<h1>{{ page.title }}</h1>
-		{{ content }}
+  <h1>{{ page.title }}</h1>
+  <span class="meta">
+	{{ page.date | date: site.date_format }} • <span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span>人看过</span>
+  </span>
+	{{ content }}
   {% if site.display-author-post-page %}
     {% if page.author.name %}
       <small><em>{{ site.var_guest_post_by }}: {{ page.author.name }} {{ page.author.info }}</em></small>
@@ -30,14 +32,14 @@ layout: default
     {% if page.next.url %}
       <a href="{{ page.next.url | prepend: site.baseurl }}">‹ {{ site.var_previous_post }}</a>
     {% else %}
-      <span class="disabled">‹ {{ site.var_next_post }}</span>
+      <span class="disabled">‹ {{ site.var_previous_post }}</span>
     {% endif %}
   </div>
   <div class="right">
     {% if page.previous.url %}
       <a href="{{ page.previous.url | prepend: site.baseurl }}">{{ site.var_next_post }} ›</a>
     {% else %}
-      <span class="disabled">{{ site.var_previous_post }} ›</span>
+      <span class="disabled">{{ site.var_next_post }} ›</span>
     {% endif %}
   </div>
 </div>

@@ -315,6 +315,10 @@ input[type="submit"] {
 .pagination a {
   background-image: none;
   text-decoration: none !important;
+  text-align: right;
+}
+.pagination span {
+  text-align: right;
 }
 .pagination .disabled {
   color: rgba({{ site.text-color }},.1);
@@ -324,7 +328,6 @@ input[type="submit"] {
 }
 .pagination .right {
   float: right;
-  text-align: right;
 }
 #disqus_thread {
   margin-bottom: 50px;

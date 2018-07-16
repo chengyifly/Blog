@@ -41,7 +41,7 @@ layout: default
   <div class="right">
     {% if page.next.url %}
       <a href="{{ page.next.url | prepend: site.baseurl }}">
-	      <span style="float:right">{{ site.var_next_post }} ＞</span><br>
+	      <div style="float:right">{{ site.var_next_post }} ＞</div><br>
 		<small><em>{{page.next.title}}</em></small>
 	</a>
     {% else %}

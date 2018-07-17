@@ -24,9 +24,9 @@ home: true
     </span>
     <p>
     {% if post.summary %}
-      {{ post.summary }}&nbsp;...&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> {{ site.var_read }}  →</a>
+      {{ post.summary }}&nbsp;...&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">&nbsp;{{ site.var_read }}  →</a>
     {% else %}
-      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;…<a class="read-more" href="{{ post.url | prepend: site.baseurl }}"> {{ site.var_read }}  →</a>
+      {{ post.excerpt | remove: '<p>' | remove: '</p>' }}&nbsp;...&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">&nbsp;{{ site.var_read }}  →</a>
     {% endif %}
     </p>
 

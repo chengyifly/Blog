@@ -20,7 +20,7 @@ home: true
       {% endif %}
       {{ post.date | date: site.date_format }} • 全文 {{ words-count }} 字
     </span>
-  	<a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
+  	<a class="h1-title" href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
       <p>
       {% if post.summary %}
         {{ post.summary }}&nbsp;<a class="read-more" href="{{ post.url | prepend: site.baseurl }}">{{ site.var_read }}  →</a>

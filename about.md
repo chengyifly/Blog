@@ -4,7 +4,7 @@ title: About
 cover-image: hipster.jpg
 ---
 
-![Avatar]({{ site.baseurl }}/img/avatar.jpg)
+![Avatar]({{ site.baseurl }}/img/avatar.png)
 
 我是 Fly Corleone，现居北京
 <br>

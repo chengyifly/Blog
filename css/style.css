@@ -292,6 +292,7 @@ a.h1-title {
 }
 a.h1-title:hover {
   color: rgba({{ site.text-color }}, .76);
+  text-decoration: underline;
 }
 input[type="email"],
 textarea {

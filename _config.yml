@@ -37,7 +37,7 @@ lang: cn
 show-subtitle: true
 display-social-icons: false
 
-footer-text: 感谢光临我的Blog.<span id="busuanzi_container_site_uv"> 您是本站第<span id="busuanzi_value_site_uv"></span>位小伙伴</span><br><br>Copyright 2018 Fly Corleone. Powered by Jekyll&GitHub.
+footer-text: 感谢光临我的Blog.<span id="busuanzi_container_site_uv">&nbsp;你是本站第<span id="busuanzi_value_site_uv"></span>位小伙伴</span><br><br>Copyright 2018 Fly Corleone. Powered by Jekyll&GitHub.
 
 # Preferably 64px in height. Leave empty = disable.
 logo-image: # /img/logo.png
@@ -123,8 +123,8 @@ var_less_than_a_minute_read: Less than a minute read
 var_min_read: min read # Text after reading time. Example: 5 min read.
 var_post_by: 作者
 var_guest_post_by: 嘉宾作者
-var_your_email: 你的E-mail
-var_your_message: 这里填写你的留言
+var_your_email: 这里填写你的E-mail
+var_your_message: 你的留言内容
 
 
 ##################

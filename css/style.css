@@ -107,6 +107,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.2em;
 }
+h1 a:hover {
+  color: rgba({{ site.text-color }},.76);
+}
 h2 {
   font-size: 1.5em;
   margin-top: 40px;
@@ -284,8 +287,8 @@ a.read-more {
   font-weight: 600;
   color: rgba({{ site.theme-color }}, 1);
 }
-.read-more a:hover {
-  color: rgba({{ site.theme-color }},.76);
+a.read-more:hover {
+  color: rgba({{ site.theme-color }},.4);
 }
 input[type="email"],
 textarea {
@@ -366,6 +369,7 @@ footer .inner {
 }
 nav a {
   display: block;
+  font-family: "Source Sans Pro", Verdana, sans-serif;
   padding: 5px;
   text-align: center;
   background-image: none;

@@ -89,6 +89,7 @@ img {
 }
 .img-only {
   margin: 0 -15px;
+  background-color: rgb({{ site.background-color }});
 }
 .img-only-source {
   margin: 0 -15px;
@@ -434,7 +435,7 @@ nav a.current {
     margin: 70px;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: -10px;
   }
   h2 {
@@ -481,7 +482,7 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 2em;
+    font-size: 1em;
   }
   article:last-of-type::after {
     content: "";

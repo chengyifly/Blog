@@ -5,10 +5,10 @@ name: Fly Corleone's Blog
 description:
 
   # Description of your site. This will show up in google.
-  meta: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^ ~
+  meta: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^
 
   # Description of your site. This will show up on the front page.
-  subtitle: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^ ~
+  subtitle: 这是我的博客，记录我的心情与生活点滴，也可能是技术或者其他不相关的，哈哈^_^
 
 author:
   name: Fly Corleone # Change this!

@@ -5,7 +5,7 @@ home: true
 
 {% for post in paginator.posts %}
 
-{% assign wordsCount = page.content | strip_html | strip_newlines | remove: " " | size %}
+{% assign words-count = post.content | strip_html | strip_newlines | remove: " " | size %}
 
   <article>
     <span class="meta">
@@ -18,7 +18,7 @@ home: true
           {% endif %}
         {% endif %}
       {% endif %}
-      {{ post.date | date: site.date_format }} • 本文 {{ wordsCount }} 字
+      {{ post.date | date: site.date_format }} • 全文 {{ words-count }} 字
     </span>
   	<a href="{{ post.url | prepend: site.baseurl }}"><h1>{{ post.title }}</h1></a>
       <p>

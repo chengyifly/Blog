@@ -20,7 +20,7 @@
 
 body {
   font-family: "Crimson Text", Georgia, Cambria, "Times New Roman", Times, serif;
-  font-size: 22px;
+  font-size: 17px;
   -webkit-font-smoothing: antialiased;
   font-weight: 400;
   color: rgba({{ site.text-color }}, .8);
@@ -32,7 +32,7 @@ html, body {
   height: 100%;
 }
 p, form {
-  line-height: 1.4;
+  line-height: 1.6;
   margin: 30px auto;
   word-wrap: break-word;
 }
@@ -97,7 +97,7 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-weight: 900;
+  font-weight: 800;
   background-image: none;
   text-decoration: none !important;
   word-wrap: break-word;
@@ -105,15 +105,15 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: normal;
 }
 h1 {
-  font-size: 2.2em;
+  font-size: 1.8em;
 }
 h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
   margin-top: 40px;
   margin-bottom: 30px;
 }
 h3, h4, h5, h6 {
-  font-size: 1.05em;
+  font-size: 1.0em;
   margin-top: 40px;
   margin-bottom: 30px;
 }

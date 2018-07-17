@@ -153,25 +153,26 @@ blockquote {
   padding: 0 10px;
   font-style: italic;
   font-size: 18px;
-  color: rgba({{ site.text-color }}, .5);
+  color: rgba({{ site.text-color }}, .6);
 }
 blockquote::before,
 blockquote::after {
   font-weight: 400;
-  font-size: 24px;
-  color: rgba({{ site.theme-color }}, .8);
+  font-size: 60px;
+  color: rgb({{ site.theme-color }});
   display: block;
-  text-align: center;
   vertical-align: bottom;
-  height: 24px;
+  height: 30px;
   font-style: normal;
 }
 blockquote::before {
   content: "“";
+  text-align: left;
   margin-top: 10px;
 }
 blockquote::after {
   content: "”";
+  text-align: right;
   margin: 10px auto;
 }
 code {
@@ -458,7 +459,7 @@ nav a.current {
   }
   blockquote {
     padding: 0 10px;
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
   hr {
     margin: 90px auto;

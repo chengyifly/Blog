@@ -173,7 +173,7 @@ blockquote::before {
 blockquote::after {
   content: "”";
   text-align: right;
-  margin: 10px auto;
+  margin-bottom: 10px;
 }
 code {
   font-family: "Source Code Pro", monospace;

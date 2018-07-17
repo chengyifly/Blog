@@ -150,7 +150,7 @@ tfoot {
   border-top: 2px solid rgba({{ site.theme-color }}, .4);
 }
 blockquote {
-  padding: 0 20px;
+  padding: 0 10px;
   font-style: italic;
 }
 blockquote::before,
@@ -161,16 +161,16 @@ blockquote::after {
   display: block;
   text-align: center;
   vertical-align: bottom;
-  height: 40px;
+  height: 30px;
   font-style: normal;
 }
 blockquote::before {
   content: "“";
-  margin-top: 30px;
+  margin-top: 10px;
 }
 blockquote::after {
   content: "”";
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 code {
   font-family: "Source Code Pro", monospace;
@@ -401,7 +401,7 @@ nav a.current {
     font-size: 32px;
   }
   body {
-    font-size: 17px;
+    font-size: 22px;
   }
 }
 @media all and (min-width: 500px) {
@@ -435,16 +435,16 @@ nav a.current {
     margin: 70px;
   }
   h1 {
-    font-size: 1.7em;
+    font-size: 1.8em;
     margin-bottom: -10px;
   }
   h2 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     margin-top: 60px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     margin-top: 60px;
     margin-bottom: -10px;
   }
@@ -455,7 +455,7 @@ nav a.current {
     margin: 0 -30px;
   }
   blockquote {
-    padding: 0 30px;
+    padding: 0 10px;
     font-size: 1em;
   }
   hr {

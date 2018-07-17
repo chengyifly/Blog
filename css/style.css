@@ -282,6 +282,10 @@ a.read-more {
   background-image: none;
   text-decoration: none !important;
   font-weight: 600;
+  color: rgba({{ site.theme-color }}, 1);
+}
+.read-more a:hover {
+  color: rgba({{ site.theme-color }},.76);
 }
 input[type="email"],
 textarea {
@@ -309,7 +313,7 @@ input[type="submit"] {
 .pagination {
   margin-top: -30px;
   font-family: "Source Sans Pro", Verdana, sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   padding-bottom: 50px;
 }
 .pagination a {

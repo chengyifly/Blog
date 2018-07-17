@@ -435,7 +435,7 @@ nav a.current {
     margin: 70px;
   }
   h1 {
-    font-size: 1em;
+    font-size: 2em;
     margin-bottom: -10px;
   }
   h2 {
@@ -482,7 +482,7 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 1em;
+    font-size: 2em;
   }
   article:last-of-type::after {
     content: "";

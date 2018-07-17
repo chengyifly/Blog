@@ -285,10 +285,13 @@ a.read-more {
   color: rgba({{ site.theme-color }}, 1);
 }
 a.read-more:hover {
-  color: rgba({{ site.theme-color }},.4);
+  color: rgba({{ site.theme-color }}, .4);
+}
+a.h1-title {
+  text-decoration: none !important;
 }
 a.h1-title:hover {
-  color: rgba({{ site.text-color }},.76);
+  color: rgba({{ site.text-color }}, .76);
 }
 input[type="email"],
 textarea {

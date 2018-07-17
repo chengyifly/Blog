@@ -33,7 +33,7 @@ html, body {
 }
 p, form {
   line-height: 1.6;
-  margin: 30px auto;
+  margin: 20px auto;
   word-wrap: break-word;
 }
 p * {
@@ -153,13 +153,13 @@ blockquote {
   padding: 0 10px;
   font-style: italic;
   font-size: 18px;
-  color: rgba({{ site.text-color }}, 0.7);
+  color: rgba({{ site.text-color }}, .5);
 }
 blockquote::before,
 blockquote::after {
   font-weight: 400;
   font-size: 24px;
-  color: rgba({{ site.theme-color }}, .4);
+  color: rgba({{ site.theme-color }}, .5);
   display: block;
   text-align: center;
   vertical-align: bottom;
@@ -434,7 +434,7 @@ nav a.current {
   }
   article::after,
   header::after {
-    margin: 70px;
+    margin: 60px;
   }
   h1 {
     font-size: 1.8em;
@@ -451,14 +451,14 @@ nav a.current {
     margin-bottom: -10px;
   }
   .img-only {
-    margin: 0 -30px;
+    margin: 0 -50px;
   }
   .img-only-source {
-    margin: 0 -30px;
+    margin: 0 -50px;
   }
   blockquote {
     padding: 0 10px;
-    font-size: 1em;
+    font-size: 0.7em;
   }
   hr {
     margin: 90px auto;
@@ -479,7 +479,7 @@ nav a.current {
     padding: 5px 8px;
   }
   .website-title {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
   }
 }
 @media all and (min-width: 760px) {
@@ -488,7 +488,7 @@ nav a.current {
   }
   article:last-of-type::after {
     content: "";
-    margin-top: 120px;
+    margin-top: 80px;
     margin-bottom: 0;
   }
 }

@@ -3,4 +3,6 @@ layout: page
 title: Thank you
 ---
 
-You see? It really does work. Thank you for your message!
+感谢留言给我！收到后会第一时间回复你~
+<br>
+祝你每天都有好心情！！！

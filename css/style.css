@@ -287,13 +287,6 @@ a.read-more {
 a.read-more:hover {
   color: rgba({{ site.theme-color }}, .4);
 }
-a.h1-title {
-  text-decoration: none !important;
-}
-a.h1-title:hover {
-  color: rgba({{ site.text-color }}, .76);
-  text-decoration: underline;
-}
 input[type="email"],
 textarea {
   font: inherit;

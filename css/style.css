@@ -398,10 +398,10 @@ nav a.current {
 
 @media all and (min-width: 370px) {
   .website-title {
-    font-size: 32px;
+    font-size: 17px;
   }
   body {
-    font-size: 24px;
+    font-size: 14px;
   }
 }
 @media all and (min-width: 500px) {

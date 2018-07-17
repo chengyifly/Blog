@@ -398,10 +398,10 @@ nav a.current {
 
 @media all and (min-width: 370px) {
   .website-title {
-    font-size: 17px;
+    font-size: 32px;
   }
   body {
-    font-size: 14px;
+    font-size: 17px;
   }
 }
 @media all and (min-width: 500px) {
@@ -435,16 +435,16 @@ nav a.current {
     margin: 70px;
   }
   h1 {
-    font-size: 2em;
+    font-size: 1.7em;
     margin-bottom: -10px;
   }
   h2 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin-top: 60px;
     margin-bottom: -10px;
   }
   h3, h4, h5, h6 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-top: 60px;
     margin-bottom: -10px;
   }
@@ -482,7 +482,7 @@ nav a.current {
 }
 @media all and (min-width: 760px) {
   h1 {
-    font-size: 2em;
+    font-size: 1.8em;
   }
   article:last-of-type::after {
     content: "";

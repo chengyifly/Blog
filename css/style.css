@@ -152,16 +152,18 @@ tfoot {
 blockquote {
   padding: 0 10px;
   font-style: italic;
+  font-size: 18px;
+  color: rgba({{ site.text-color }}, 0.7);
 }
 blockquote::before,
 blockquote::after {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 24px;
   color: rgba({{ site.theme-color }}, .4);
   display: block;
   text-align: center;
   vertical-align: bottom;
-  height: 20px;
+  height: 24px;
   font-style: normal;
 }
 blockquote::before {

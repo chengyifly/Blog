@@ -107,9 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.2em;
 }
-h1 a:hover {
-  color: rgba({{ site.text-color }},.76);
-}
 h2 {
   font-size: 1.5em;
   margin-top: 40px;
@@ -289,6 +286,9 @@ a.read-more {
 }
 a.read-more:hover {
   color: rgba({{ site.theme-color }},.4);
+}
+a.hi-title:hover {
+  color: rgba({{ site.text-color }},.76);
 }
 input[type="email"],
 textarea {

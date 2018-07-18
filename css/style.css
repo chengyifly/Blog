@@ -454,6 +454,7 @@ nav a.current {
   }
   .img-only {
     margin: 0 -50px;
+    padding-top: 10px;
   }
   .img-only-source {
     margin: 0 -50px;

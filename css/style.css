@@ -322,6 +322,7 @@ input[type="submit"] {
 .pagination a {
   background-image: none;
   text-decoration: none !important;
+  line-height: 28px;
 }
 .pagination .disabled {
   color: rgba({{ site.text-color }},.1);

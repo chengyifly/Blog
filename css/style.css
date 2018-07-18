@@ -463,7 +463,7 @@ nav a.current {
     font-size: 0.8em;
   }
   hr {
-    margin: 90px auto;
+    margin: 40px auto;
   }
 }
 @media all and (min-width: {{ site.nav-breaking-point }}) {

@@ -10,7 +10,7 @@ cover-image: hipster.jpg
 我是 Fly Corleone，现居北京
 <br>
 <br>
-互联网从业者，iOS开发工程师，程序猿一只
+互联网从业者，iOS开发攻城狮，程序猿一只
 </center>
 
 ---

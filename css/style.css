@@ -152,7 +152,7 @@ tfoot {
 blockquote {
   padding: 0 10px;
   font-size: 18px;
-  color: rgba(0, 0, 0, .7);
+  color: rgba(0, 0, 0, .6);
 }
 blockquote::before,
 blockquote::after {
